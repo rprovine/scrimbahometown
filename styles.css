@@ -1,0 +1,57 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Island Moments', cursive;
+    
+    
+
+}
+
+#hero {
+    background-image: url(images/hawaiipic.jpg);
+    background-size: cover;
+    color: white;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px 0px 40px;
+    
+}
+img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+h1, h2 {
+    background-color: cornflowerblue;
+}
+
+#activities {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#guide {
+    display: flex;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    padding: 20px;
+    justify-content: space-around;
+}
